@@ -1,5 +1,4 @@
-count = 0
-lst = []
+count, lst = 0, []
 with open("adventofcode1.txt","r") as f:
     for l in f.readlines():
         if l.strip() == "":
